@@ -91,7 +91,7 @@ deploy:
   repository: git@github.com:tcwm1/tcwm1.github.io.git 
   branch: master
 
-sonContent:
+jsonContent:
   meta: false
   pages: false
   posts:
