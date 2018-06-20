@@ -7,7 +7,7 @@ title: 喵爸薄技
 subtitle: 
 description:
 keywords: "奶爸,工程师,Programmer,Coder,Geek"
-author: 喵爸
+author: 喵爸薄技
 email: tcwm100@gmail.com
 language:
 timezone:
@@ -91,4 +91,22 @@ deploy:
   repository: git@github.com:tcwm1/tcwm1.github.io.git 
   branch: master
 
+sonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
 
