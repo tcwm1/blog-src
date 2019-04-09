@@ -4,7 +4,7 @@
 
 # Site
 title: 喵爸薄技
-subtitle: 最怕你一生碌碌无为，还安慰自己平凡可贵。 
+subtitle: 最怕你一生碌碌无为，还安慰自己平凡可贵 
 description: 
 keywords: "奶爸,工程师,Programmer,Coder,Geek,Dad,深度学习,AI"
 author: 喵爸薄技
@@ -14,7 +14,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.classic.tips
+url: https://blog.classic.tips
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
