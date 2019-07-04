@@ -82,6 +82,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+#theme: next
 theme: yilia
 
 # Deployment
@@ -103,7 +104,7 @@ jsonContent:
     content: false
     slug: false
     updated: false
-    comments: false
+    comments: true
     link: false
     permalink: false
     excerpt: false
