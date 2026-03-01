@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 喵爸薄技
-subtitle: 最怕你一生碌碌无为，还安慰自己平凡可贵 
-description: 
-keywords: "奶爸,工程师,Programmer,Coder,Geek,Dad,深度学习,AI"
-author: 喵爸薄技
+title: classic.tips Blog
+subtitle: Master the basics. Command the future.
+description: Notes on engineering, systems, and useful tools.
+keywords: "classic.tips,engineering,systems,AI,indie maker,blog"
+author: tcwm1
 email: tcwm100@gmail.com
 language:
 timezone:
@@ -83,7 +83,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: next
-theme: yilia
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

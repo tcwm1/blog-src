@@ -1,8 +1,11 @@
 # Header
 menu:
-  Home: /
+  Home: https://classic.tips
+  Blog: /
   Archives: /archives
-rss: /atom.xml
+  Categories: /categories
+  Tags: /tags
+rss:
 
 # Content
 excerpt_link: Read More
@@ -11,11 +14,10 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
-- category
-- tag
-- tagcloud
-- archive
+- profile
 - recent_posts
+- archive
+- category
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -30,8 +32,21 @@ show_count: false
 # Miscellaneous
 google_analytics:
 gauges_analytics:
-favicon: /favicon.png
+favicon: /favicon.svg
 twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+profile:
+  bio: |
+    Master the Basics.
+    Command the Future.
+    First Principles for the Modern Professional.
+
+comments:
+  provider: utterances
+  repo: tcwm1/blog-src
+  issue_term: pathname
+  label: comment
+  theme: github-light

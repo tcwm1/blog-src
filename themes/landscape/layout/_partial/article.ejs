@@ -42,3 +42,16 @@
   </div>
 </section>
 <% } %>
+
+<% if (!index && post.comments && theme.comments && theme.comments.provider === 'utterances' && theme.comments.repo){ %>
+<section id="comments" style="margin-top: 24px;">
+  <script src="https://utteranc.es/client.js"
+    repo="<%= theme.comments.repo %>"
+    issue-term="<%= theme.comments.issue_term || 'pathname' %>"
+    label="<%= theme.comments.label || 'comment' %>"
+    theme="<%= theme.comments.theme || 'github-light' %>"
+    crossorigin="anonymous"
+    async>
+  </script>
+</section>
+<% } %>
